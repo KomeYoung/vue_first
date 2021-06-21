@@ -122,7 +122,7 @@ export default {
 <style scoped>
 h1, h2 {
   font-weight: normal;
-  color: rgb(39, 18, 230);
+  color: rgb(43, 30, 158);
 }
 ul {
   list-style-type: none;
