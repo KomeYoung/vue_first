@@ -141,7 +141,7 @@ h1, h2 {
 }
 p {
   font-size: 60px;
-  color: #3da072;
+  color: #267450;
 }
 ul {
   list-style-type: none;
