@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2021-06-16 16:28:43
- * @LastEditTime: 2021-06-21 09:41:28
+ * @LastEditTime: 2021-06-30 15:09:34
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: /myvue/src/main.js
@@ -19,5 +19,8 @@ new Vue({
   el: '#app2',
   router,
   components: { App },
-  template: '<App/>'
+  template: '<App/>',
+  data: {
+    Bus: new Vue()
+  }
 }).$mount('#app2')

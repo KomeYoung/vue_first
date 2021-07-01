@@ -1,7 +1,7 @@
 <!--
  * @Author: your name
  * @Date: 2021-06-16 16:28:43
- * @LastEditTime: 2021-06-21 11:36:35
+ * @LastEditTime: 2021-06-30 15:46:51
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: /myvue/src/App.vue
@@ -15,8 +15,12 @@
     <router-link :to="{name: 'HelloWorld2'}">HelloWorld2</router-link>
      -->
 
- <router-link to='HelloWorld'>HelloWorld</router-link>
+    <router-link to='HelloWorld'>HelloWorld</router-link>
     <router-link to='HelloWorld2'>HelloWorld2</router-link>
+    <router-link to='HelloWorld3'>HelloWorld3</router-link>
+    <router-link to='HelloWorld4'>HelloWorld4</router-link>
+    <router-link to='HelloWorld5'>HelloWorld5</router-link>
+    <router-link to='HelloWorld6'>HelloWorld6</router-link>
 
   </div>
      <!-- 对应的组件内容渲染到router-view中 -->
