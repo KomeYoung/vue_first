@@ -108,14 +108,23 @@
 </template>
 
 <script>
+// import VueEvent from '../module/VueEvent'
 export default {
   name: 'HelloWorld',
   data () {
     return {
       msg: 'Welcome111 to Your Vue.js App11'
     }
+  },
+  mounted: function () {
+    this.$root.Bus.$on('hehe', content => {
+      // Hub接收事件
+      // this.msg = content
+      console.log(content)
+    })
   }
 }
+
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
