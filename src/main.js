@@ -20,16 +20,18 @@ import 'swiper/swiper-bundle.css'
 import './assets/styles/border.css'
 import './assets/styles/reset.css'
 import './assets/styles/iconfont.css'
+import ElementUI from 'element-ui'
+import 'element-ui/lib/theme-chalk/index.css'
 
 Vue.use(VueAwesomeSwiper /* { default options with global component } */)
 Vue.config.productionTip = false
+Vue.use(ElementUI)
 
 /* eslint-disable no-new */
 new Vue({
   el: '#app2',
   router,
-  components: { App },
-  template: '<App/>',
+  render: h => h(App),
   data: {
     Bus: new Vue()
   }

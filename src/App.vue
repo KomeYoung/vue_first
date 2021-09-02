@@ -1,7 +1,7 @@
 <!--
  * @Author: your name
  * @Date: 2021-06-16 16:28:43
- * @LastEditTime: 2021-07-12 10:11:47
+ * @LastEditTime: 2021-09-02 00:11:32
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: /myvue/src/App.vue
@@ -11,6 +11,27 @@
     <home-header></home-header>
     <home-swiper></home-swiper>
     <div>161516</div>
+    <el-button>jfkfjkfj</el-button>
+      <el-tooltip effect="dark" popper-class="aToolTip" visible-arrow ="false"  placement="right">
+        <div slot="content">
+          <div
+            class="m-b-10"
+            v-for="(item, index) in tipList"
+            :key="index"
+          >
+            {{ item.name }}
+          </div>
+        </div>
+          <span class=" f-r" >112212<i
+              id="historychannel"
+              class="el-icon-loading"
+              style="color:#606266;margin:0px 0px;"
+              ></i>|
+          </span>
+      </el-tooltip>
+      <span class="el-dropdown-link">
+    下拉菜单<i class="el-icon-arrow-up"></i>
+  </span>
     <!-- <router-link to='HelloWorld'>HelloWorld</router-link>
     <router-link to='HelloWorld2'>HelloWorld2</router-link>
     <router-link to='HelloWorld3'>HelloWorld3</router-link>
@@ -34,6 +55,21 @@ export default {
     Fun1,
     HomeHeader,
     HomeSwiper
+  },
+  data () {
+    return {
+      tipList: [
+        {
+          name: 'jkfjkf'
+        },
+        {
+          name: '22'
+        },
+        {
+          name: '333'
+        }
+      ]
+    }
   }
 }
 </script>
@@ -46,5 +82,19 @@ export default {
   text-align: center;
   color: #f00e2c;
   margin-top: 6px;
+}
+.aToolTip{
+  background: #f00e2c !important;
+}
+.aToolTip.el-tooltip__popper[x-placement^=right] .popper__arrow::after {
+
+      border-right-color: #66f00e2c;
+
+    }
+
+.aToolTip.el-tooltip__popper[x-placement^=right] .popper__arrow{
+
+  border-right-color: #66f00e2c;
+
 }
 </style>
