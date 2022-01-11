@@ -1,7 +1,7 @@
 <!--
  * @Author: your name
  * @Date: 2021-07-05 15:42:05
- * @LastEditTime: 2021-07-12 13:57:40
+ * @LastEditTime: 2022-01-12 00:24:27
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: /vue_first/src/components/app/Swiper.vue
@@ -28,19 +28,19 @@ export default {
           imageUrl: 'http://img4.imgtn.bdimg.com/it/u=1746392609,3023202045&fm=27&gp=0.jpg'
         },
         {
-          id: '111',
+          id: '222',
           imageUrl: 'http://img4.imgtn.bdimg.com/it/u=1746392609,3023202045&fm=27&gp=0.jpg'
         },
         {
-          id: '111',
+          id: '333',
           imageUrl: 'https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=1189049432,2006081149&fm=26&gp=0.jpg'
         },
         {
-          id: '111',
+          id: '444',
           imageUrl: 'https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=1189049432,2006081149&fm=26&gp=0.jpg'
         },
         {
-          id: '111',
+          id: '555',
           imageUrl: 'https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=1189049432,2006081149&fm=26&gp=0.jpg'
         }
       ],

@@ -1,13 +1,13 @@
 <!--
  * @Author: your name
  * @Date: 2021-06-16 16:28:43
- * @LastEditTime: 2021-07-07 17:56:15
+ * @LastEditTime: 2022-01-12 00:26:19
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: /myvue/src/App.vue
 -->
 <template>
-  <div id="app2" class="father">
+  <div id="app3" class="father">
     <demo-top :msg="top" class="children"></demo-top>
     <div class="bgcenter">
       <demo-left class="center-left-right"></demo-left>

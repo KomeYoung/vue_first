@@ -1,13 +1,13 @@
 <!--
  * @Author: your name
  * @Date: 2021-06-16 16:28:43
- * @LastEditTime: 2022-01-11 23:16:12
+ * @LastEditTime: 2022-01-12 00:21:20
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: /myvue/src/App.vue
 -->
 <template>
-  <div id="app2">
+  <div id="app">
     <home-header></home-header>
     <home-swiper></home-swiper>
     <div>161516</div>
