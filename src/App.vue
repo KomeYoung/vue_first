@@ -1,7 +1,7 @@
 <!--
  * @Author: your name
  * @Date: 2021-06-16 16:28:43
- * @LastEditTime: 2021-09-02 00:11:32
+ * @LastEditTime: 2022-01-11 23:16:12
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: /myvue/src/App.vue
@@ -87,9 +87,7 @@ export default {
   background: #f00e2c !important;
 }
 .aToolTip.el-tooltip__popper[x-placement^=right] .popper__arrow::after {
-
       border-right-color: #66f00e2c;
-
     }
 
 .aToolTip.el-tooltip__popper[x-placement^=right] .popper__arrow{
