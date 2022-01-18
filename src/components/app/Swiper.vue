@@ -33,15 +33,15 @@ export default {
         },
         {
           id: '333',
-          imageUrl: 'https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=1189049432,2006081149&fm=26&gp=0.jpg'
+          imageUrl: 'http://img4.imgtn.bdimg.com/it/u=1746392609,3023202045&fm=27&gp=0.jpg'
         },
         {
           id: '444',
-          imageUrl: 'https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=1189049432,2006081149&fm=26&gp=0.jpg'
+          imageUrl: 'http://img4.imgtn.bdimg.com/it/u=1746392609,3023202045&fm=27&gp=0.jpg'
         },
         {
           id: '555',
-          imageUrl: 'https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=1189049432,2006081149&fm=26&gp=0.jpg'
+          imageUrl: 'http://img4.imgtn.bdimg.com/it/u=1746392609,3023202045&fm=27&gp=0.jpg'
         }
       ],
       swiperOption: {
